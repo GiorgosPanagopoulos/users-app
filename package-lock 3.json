@@ -10,17 +10,15 @@
       "license": "ISC",
       "dependencies": {
         "bcrypt": "^5.1.1",
-        "bcryptjs": "^3.0.2",
         "call-bound": "^1.0.4",
         "content-type": "^1.0.5",
         "cors": "^2.8.5",
-        "dotenv": "^16.4.7",
         "express": "^5.1.0",
         "google-auth-library": "^9.15.1",
         "jsonwebtoken": "^9.0.2",
         "logform": "^2.7.0",
         "mongodb": "^5.9.2",
-        "mongoose": "^8.14.2",
+        "mongoose": "^8.13.2",
         "mongoose-to-swagger": "^1.5.1",
         "mquery": "^5.0.0",
         "setprototypeof": "^1.2.0",
@@ -29,6 +27,9 @@
         "winston": "^3.17.0",
         "winston-daily-rotate-file": "^5.0.0",
         "winston-mongodb": "^6.0.0"
+      },
+      "devDependencies": {
+        "dotenv": "^16.4.7"
       }
     },
     "node_modules/@colors/colors": {
@@ -222,15 +223,6 @@
       },
       "engines": {
         "node": ">= 10.0.0"
-      }
-    },
-    "node_modules/bcryptjs": {
-      "version": "3.0.2",
-      "resolved": "https://registry.npmjs.org/bcryptjs/-/bcryptjs-3.0.2.tgz",
-      "integrity": "sha512-k38b3XOZKv60C4E2hVsXTolJWfkGRMbILBIe2IBITXciy5bOsTKot5kDrf3ZfufQtQOUN5mXceUEpU1rTl9Uog==",
-      "license": "BSD-3-Clause",
-      "bin": {
-        "bcrypt": "bin/bcrypt"
       }
     },
     "node_modules/bignumber.js": {
@@ -497,6 +489,7 @@
       "version": "16.4.7",
       "resolved": "https://registry.npmjs.org/dotenv/-/dotenv-16.4.7.tgz",
       "integrity": "sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==",
+      "dev": true,
       "license": "BSD-2-Clause",
       "engines": {
         "node": ">=12"
@@ -1421,14 +1414,14 @@
       }
     },
     "node_modules/mongoose": {
-      "version": "8.14.2",
-      "resolved": "https://registry.npmjs.org/mongoose/-/mongoose-8.14.2.tgz",
-      "integrity": "sha512-LPLZiN6M8ap4GlXmaaG7yrHIkK45dSO3NZ0qgERJl2CfcL5eP7MA9umn4zGhKiWkMLbnHM4jhebIYbUhvuwWvQ==",
+      "version": "8.13.2",
+      "resolved": "https://registry.npmjs.org/mongoose/-/mongoose-8.13.2.tgz",
+      "integrity": "sha512-riCBqZmNkYBWjXpM3qWLDQw7QmTKsVZDPhLXFJqC87+OjocEVpvS3dA2BPPUiLAu+m0/QmEj5pSXKhH+/DgerQ==",
       "license": "MIT",
       "dependencies": {
         "bson": "^6.10.3",
         "kareem": "2.6.3",
-        "mongodb": "~6.16.0",
+        "mongodb": "~6.15.0",
         "mpath": "0.9.0",
         "mquery": "5.0.0",
         "ms": "2.1.3",
@@ -1499,9 +1492,9 @@
       }
     },
     "node_modules/mongoose/node_modules/mongodb": {
-      "version": "6.16.0",
-      "resolved": "https://registry.npmjs.org/mongodb/-/mongodb-6.16.0.tgz",
-      "integrity": "sha512-D1PNcdT0y4Grhou5Zi/qgipZOYeWrhLEpk33n3nm6LGtz61jvO88WlrWCK/bigMjpnOdAUKKQwsGIl0NtWMyYw==",
+      "version": "6.15.0",
+      "resolved": "https://registry.npmjs.org/mongodb/-/mongodb-6.15.0.tgz",
+      "integrity": "sha512-ifBhQ0rRzHDzqp9jAQP6OwHSH7dbYIQjD3SbJs9YYk9AikKEettW/9s/tbSFDTpXcRbF+u1aLrhHxDFaYtZpFQ==",
       "license": "Apache-2.0",
       "dependencies": {
         "@mongodb-js/saslprep": "^1.1.9",
@@ -1555,9 +1548,9 @@
       }
     },
     "node_modules/mongoose/node_modules/tr46": {
-      "version": "5.1.1",
-      "resolved": "https://registry.npmjs.org/tr46/-/tr46-5.1.1.tgz",
-      "integrity": "sha512-hdF5ZgjTqgAntKkklYw0R03MG2x/bSzTtkxmIRw/sTNV8YXsCJ1tfLAX23lhxhHJlEf3CRCOCGGWw3vI3GaSPw==",
+      "version": "5.1.0",
+      "resolved": "https://registry.npmjs.org/tr46/-/tr46-5.1.0.tgz",
+      "integrity": "sha512-IUWnUK7ADYR5Sl1fZlO1INDUhVhatWl7BtJWsIhwJ0UAK7ilzzIa8uIqOO/aYVWHZPJkKbEL+362wrzoeRF7bw==",
       "license": "MIT",
       "dependencies": {
         "punycode": "^2.3.1"
